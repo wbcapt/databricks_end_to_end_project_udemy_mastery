@@ -1,4 +1,26 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC #Project Setup
+# MAGIC
+# MAGIC This is the setup for the end to end project of the udemy mastery course
+# MAGIC
+# MAGIC This notebook is used to configure schemas under the dev_catalog you should have set up
+
+# COMMAND ----------
+
+#test that the schema we created is running by calling the dataframe
+spark.sql(""" USE CATALOG dev_catalog""")
+DataFrame()
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC --identify what catalog you currently are in
+# MAGIC
+# MAGIC SELECT current_catalog()
+
+# COMMAND ----------
+
 # MAGIC %run "/Users/shanmukh@shanmukhsattiraju.com/04. Common"
 
 # COMMAND ----------
