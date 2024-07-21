@@ -23,6 +23,13 @@
 # MAGIC #Basic demo of how to cerate a (spark structured) read stream to ingest data
 # MAGIC
 # MAGIC Don't run these blocks because you create everything in a python file later
+# MAGIC
+# MAGIC Take note of the syntax to easily identify structured streaming
+# MAGIC
+# MAGIC spark.readStream.load() or spark.readStream.start()
+# MAGIC
+# MAGIC Compare this to APache Spark:
+# MAGIC spark.read.load() or spark.write.save()
 
 # COMMAND ----------
 
