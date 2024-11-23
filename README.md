@@ -13,6 +13,6 @@ The directories are as follows in github:
 1) Original_Project_Code : this is the original project code for the project lectures
 2) project_working_directory: this is my markup of the project code
 3) Theory Sections My Markup: This is my markup of the theory sections (prior to section 7)
-4) Unaltered course files: these are all the unaltered files from the instructor's repo both theory and project
+4) Original course files: these are all the unaltered files from the instructor's repo both theory and project
 
 
